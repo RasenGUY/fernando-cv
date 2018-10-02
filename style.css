@@ -4,6 +4,10 @@
   height: 40vh;
 }
 
+footer {
+  height: 20vh;
+}
+
 .wrapper{
   width: 75%;
   margin-left: auto;
@@ -32,6 +36,7 @@ a {
   text-decoration: none;
 }
 
+
 /* colors */
 
 .theme {color: #EBF3F8;background: #4F97C5;}
@@ -40,8 +45,8 @@ a {
 .hover-theme:hover{color: #EBF3F8;background: #4F97C5;}
   .hover-theme-text:hover{color: #4F97C5;}
 
-.base {background: #EBF7F0;color: #040C11;}
-  .base-text{color: #040C11;}
+.base {background: #F2F7FA; color: #040C11;}
+  .base-text{color: #F2F7FA;}
 .hover-base:hover{background: #EBF7F0;color: #040C11;}
   .hover-base-text:hover{color: #4F97C5}
 

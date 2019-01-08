@@ -33,9 +33,9 @@ $(document).ready(() => {
         var width = skillScores[skill];
 
         // initialize the animation function
-        barAnimate(el, width)
+        barAnimate(el, width);
         
-    })
+    });
 
     // function for animating the Pbars
     function barAnimate (pBar, width) {        
@@ -49,11 +49,10 @@ $(document).ready(() => {
             triggerElement: "#trigger",
             onReverse: false
         })
-        .addIndicators()
         .setTween(tween)
         .reverse(false)
         .addTo(controller);
-    };
+    }
 
 
     

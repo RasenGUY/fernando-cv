@@ -54,7 +54,16 @@ a {
   .highlight-text{color: #249F58;}
   .highlight-text-light{color: #61C48B;}
   .highlight-text-dark{color: #165F35}
-.hover-highlight:hover{background: #249F58: color: #EBF3F8;}
+.hover-highlight:hover{background: #249F58; color: #EBF3F8;}
   .hover-highlight-text:hover{color: #249F58;}
   .hover-highlight-text-light:hover{color: #61C48B;}
   .hover-highlight-text-dark:hover{color: #165F35}
+
+
+/* pBars */
+#pBar li div div{
+  height: 24px;
+  width: 0%;
+}
+
+

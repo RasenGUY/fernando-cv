@@ -24,8 +24,13 @@ footer {
   width: 200px;
 }
 
-.w3-ul li{
+.w3-ul li {
   border: none;
+}
+
+.w3-ul.header-info li {
+  padding-left: 0px; 
+  padding-right: 0px;
 }
 
 .banner h1 {
